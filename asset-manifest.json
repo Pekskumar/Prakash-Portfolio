@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Prakash-Portfolio/static/css/main.6f32508c.css",
-    "main.js": "/Prakash-Portfolio/static/js/main.97395cff.js",
+    "main.js": "/Prakash-Portfolio/static/js/main.24626b21.js",
     "static/media/ChatGPT.png": "/Prakash-Portfolio/static/media/ChatGPT.bf75d5e7b156bde72e02.png",
     "static/media/banner.jpg": "/Prakash-Portfolio/static/media/banner.a4161304f9a3423b9778.jpg",
     "static/media/Prakash_DP.jpeg": "/Prakash-Portfolio/static/media/Prakash_DP.54ab5c94c24d5dd4a494.jpeg",
@@ -27,10 +27,10 @@
     "static/media/figma.svg": "/Prakash-Portfolio/static/media/figma.091c2c593592e5ad1704a8c8e3e63e3d.svg",
     "static/media/mui.svg": "/Prakash-Portfolio/static/media/mui.9873a18350271e9221576319270afd3d.svg",
     "main.6f32508c.css.map": "/Prakash-Portfolio/static/css/main.6f32508c.css.map",
-    "main.97395cff.js.map": "/Prakash-Portfolio/static/js/main.97395cff.js.map"
+    "main.24626b21.js.map": "/Prakash-Portfolio/static/js/main.24626b21.js.map"
   },
   "entrypoints": [
     "static/css/main.6f32508c.css",
-    "static/js/main.97395cff.js"
+    "static/js/main.24626b21.js"
   ]
 }
