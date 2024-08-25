@@ -126,6 +126,9 @@ body {
     monospace;
 } */
 /* common */
+.cursor-pointer{
+  cursor: pointer !important;
+}
 body .btn-main-btn {
   background: #000;
   color: #fff;
@@ -283,7 +286,7 @@ body .nav-link {
   border-radius: var(--border-radius);
   max-height: 200px;
   min-height: 200px;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 /* skill */

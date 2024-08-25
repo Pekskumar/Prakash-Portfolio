@@ -123,6 +123,21 @@ const Projectdata = [
             'css',
             'html']
     },
+    {
+        title: 'NEWS',
+        subtitle: 'news',
+        detail: "💻 A dynamic and fully responsive news application that combines real-time data and intuitive design. Using the ipapi.co API, it fetches live location data to display traffic insights on Google Maps. The project also integrates OpenWeatherMap for live weather updates and gnews.io to deliver categorized news from India, covering topics like general,entertainment, sports, technology,business,science and health.",
+        sourcelink: '',
+        livelink: 'https://pekskumar.github.io/news-react',
+        technology: [
+            'react',
+            'React Bootstrap',
+            'css',
+            'gnews.io',
+            'ipapi.co',
+            'openweathermap',
+            'html']
+    },
 
 ]
 
