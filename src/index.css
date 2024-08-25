@@ -288,6 +288,11 @@ body .nav-link {
   min-height: 200px;
   /* object-fit: cover; */
 }
+.modal-body .project-img {
+  max-height: 300px;
+  min-height: 300px;
+  /* object-fit: cover; */
+}
 
 /* skill */
 .skill-right-slider {

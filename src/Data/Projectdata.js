@@ -53,7 +53,7 @@ const Projectdata = [
     },
     {
         title: 'Gmail Clone',
-        subtitle: 'gr',
+        subtitle: 'gc',
         detail: "💻 A meticulously designed Gmail clone that mirrors the Google Mail interface, offering a seamless and intuitive email experience. Utilizing the react-oauth/google package, this project fetches real-time email data, ensuring users have up-to-date information at their fingertips.",
         sourcelink: '',
         livelink: 'https://pekskumar.github.io/gmail-react',
@@ -67,7 +67,7 @@ const Projectdata = [
     },
     {
         title: 'Microsoft Clone',
-        subtitle: 'mr',
+        subtitle: 'mc',
         detail: "💻 A meticulously crafted Microsoft clone that faithfully replicates the Microsoft interface, delivering a smooth and familiar user experience. This project utilizes the @azure/msal-react package to fetch real-time email data from Microsoft, ensuring users have access to the latest information effortlessly.",
         sourcelink: '',
         livelink: 'https://pekskumar.github.io/microsoft-react',

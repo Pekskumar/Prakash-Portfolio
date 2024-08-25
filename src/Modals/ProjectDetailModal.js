@@ -7,7 +7,7 @@ import GitIcon from '../Assets/Images/GitIcon';
 import EyeIcon from '../Assets/Images/EyeIcon';
 import { CommonService } from '../CommonSearvice';
 
-const ProjectDetailModal = (props) => {  
+const ProjectDetailModal = (props) => {
 
     return (
         <Modal
@@ -23,7 +23,7 @@ const ProjectDetailModal = (props) => {
             </Modal.Header>
             <Modal.Body>
                 <div className=''>
-                    <img className='project-img' src={TempImg} alt={TempImg} />
+                    <img className='project-img' src={CommonService.ProjectImage(props.data.data.subtitle)} alt={props.data.data.subtitle} />
 
                     <div className='my-3'>
                         {props.data.data.technology.map((item, index) =>

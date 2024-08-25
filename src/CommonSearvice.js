@@ -10,9 +10,18 @@ import GnewsIcn from './Assets/Images/Gnews.jpg'
 import IPAPIIcn from './Assets/Images/ipapi.png'
 import WetherIcn from './Assets/Images/openweathermap.png'
 import DummyIcn from './Assets/Images/dummyjson.png'
+import EMSImg from './Assets/ProjectImage/EMS.png'
+import CartImg from './Assets/ProjectImage/lifestore.png'
+import ETImg from './Assets/ProjectImage/et.png'
+import GmailImg from './Assets/ProjectImage/gmail.png'
+import MCImg from './Assets/ProjectImage/mc.png'
+import GSImg from './Assets/ProjectImage/goose.png'
+import Ga4Img from './Assets/ProjectImage/ga4.png'
+import TaskImg from './Assets/ProjectImage/task.png'
+import NewsImg from './Assets/ProjectImage/news1.png'
 import StripeIcn from './Assets/Images/stripe_logo_icon_167962.png'
 
-export const CommonService = { TechIcon };
+export const CommonService = { TechIcon, ProjectImage };
 export function TechIcon(icon) {
     if (icon !== "" && icon !== null && icon !== undefined) {
         if (icon === 'react') {
@@ -41,6 +50,36 @@ export function TechIcon(icon) {
             return <img src={DummyIcn} style={{ height: '20px' }} />
         } else if (icon === 'stripe') {
             return <img src={StripeIcn} style={{ height: '20px' }} />
+        }
+    }
+}
+export function ProjectImage(image) {
+    if (image !== "" && image !== null && image !== undefined) {
+        if (image === 'ems') {
+            return EMSImg;
+        }else if(image === 'cart'){
+            return CartImg;
+        }
+        else if(image === 'et'){
+            return ETImg;
+        }
+        else if(image === 'gc'){
+            return GmailImg;
+        }
+        else if(image === 'mc'){
+            return MCImg;
+        }
+        else if(image === 'gse'){
+            return GSImg;
+        }
+        else if(image === 'ga-4'){
+            return Ga4Img;
+        }
+        else if(image === 'taskboard'){
+            return TaskImg;
+        }
+        else if(image === 'news'){
+            return NewsImg;
         }
     }
 }

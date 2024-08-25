@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import EyeIcon from '../Assets/Images/EyeIcon';
 import GitIcon from '../Assets/Images/GitIcon';
 import ReactJsIcon from '../Assets/Images/ReactJsIcon';
-import TempImg from '../Assets/Images/ssems.png';
+// import TempImg from '../Assets/Images/ssems.png';
 import ProjectDetailModal from '../Modals/ProjectDetailModal';
 import { CommonService } from '../CommonSearvice';
 
@@ -13,8 +13,7 @@ const ProjectCard = (props) => {
     const [ProjectModal, setProjectModal] = useState(false)
     return (
         <div className='project-card round-border p-4 mb-4'>
-            <img className='project-img' src={TempImg} alt={TempImg} />
-
+            <img className='project-img' src={CommonService.ProjectImage(props.data.subtitle)} alt={props.data.subtitle} />
             <div className='my-3'>
                 {props.data.technology.map((item, index) =>
                     <span className='me-2' key={index}>
