@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Prakash-Portfolio/static/css/main.ef3ee6bf.css",
-    "main.js": "/Prakash-Portfolio/static/js/main.2d68b49c.js",
+    "main.css": "/Prakash-Portfolio/static/css/main.c171e550.css",
+    "main.js": "/Prakash-Portfolio/static/js/main.9eff1ce9.js",
     "static/media/news1.png": "/Prakash-Portfolio/static/media/news1.be180af57dce979e30ea.png",
     "static/media/mc.png": "/Prakash-Portfolio/static/media/mc.a3cfe4d1fbfd2b78ee59.png",
     "static/media/EMS.png": "/Prakash-Portfolio/static/media/EMS.c9eabfd4187ad1e03eb8.png",
@@ -37,11 +37,11 @@
     "static/media/illustrator.svg": "/Prakash-Portfolio/static/media/illustrator.64d2d0f6afc3dff9b33144298047b1d5.svg",
     "static/media/figma.svg": "/Prakash-Portfolio/static/media/figma.091c2c593592e5ad1704a8c8e3e63e3d.svg",
     "static/media/mui.svg": "/Prakash-Portfolio/static/media/mui.9873a18350271e9221576319270afd3d.svg",
-    "main.ef3ee6bf.css.map": "/Prakash-Portfolio/static/css/main.ef3ee6bf.css.map",
-    "main.2d68b49c.js.map": "/Prakash-Portfolio/static/js/main.2d68b49c.js.map"
+    "main.c171e550.css.map": "/Prakash-Portfolio/static/css/main.c171e550.css.map",
+    "main.9eff1ce9.js.map": "/Prakash-Portfolio/static/js/main.9eff1ce9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef3ee6bf.css",
-    "static/js/main.2d68b49c.js"
+    "static/css/main.c171e550.css",
+    "static/js/main.9eff1ce9.js"
   ]
 }
