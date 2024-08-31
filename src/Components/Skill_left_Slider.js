@@ -9,8 +9,8 @@ const Skill_left_Slider = () => {
         slidesToShow: 6,
         autoplay: true,
         autoplaySpeed: 0,
-        speed: 11000,
-        pauseOnHover: false,
+        speed: 20000,
+        // pauseOnHover: false,
         cssEase: 'linear',
         slidesToScroll: -2,
         responsive: [

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Col, Row } from 'react-bootstrap'
 import GitIcon from '../Assets/Images/GitIcon'
+import PrakashImg from '../Assets/Images/Prakash_DP.jpeg'
 import { Link } from 'react-router-dom'
 import PhoneIcon from '../Assets/Images/PhoneIcon'
 import MailIcon from '../Assets/Images/MailIcon'
@@ -10,8 +11,8 @@ const About = () => {
     return (
         <Row>
             <Col md={6}>
-                <div className=''>
-                    image
+                <div className='about-left-img'>
+                    <img src={PrakashImg}/>
                 </div>
             </Col>
             <Col md={6}>
