@@ -430,3 +430,11 @@ fill: red;
   margin-top: -20px;
   /* width: 47%; */
 }
+
+
+
+@media screen and (max-width: 991px) {
+  .hero-banner::before{
+    background-size: contain;
+  }
+}
