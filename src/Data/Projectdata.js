@@ -11,7 +11,8 @@ const Projectdata = [
             'React Bootstrap',
             'css',
             'html',
-            'Weather API',
+            'ipapi.co',
+            'openweathermap',
             'Chart.js'
         ]
     },

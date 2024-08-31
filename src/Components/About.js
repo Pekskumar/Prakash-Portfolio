@@ -10,10 +10,10 @@ import LocationIcon from '../Assets/Images/LocationIcon'
 const About = () => {
     return (
         <Row>
-            <Col md={6} className='    d-flex
+            <Col md={6} className='  mb-3  d-flex
     justify-content-center
     align-items-center'>
-                <div className='about-left-img'>
+                <div className='about-left-img '>
                     <img src={PrakashImg} />
                 </div>
             </Col>

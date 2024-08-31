@@ -21,8 +21,9 @@ function App() {
         <Experience />
         <SectionHeader id='Projects' title='Projects' detail='Explore my featured projects below.' />
         <Project />
+        <SectionHeader id='Skills' title='Skills' detail='Building exceptional digital experiences with the power of different skills.' />
+     
       </Container>
-      <SectionHeader id='Skills' title='Skills' detail='Building exceptional digital experiences with the power of different skills.' />
       <Skills />
       <Footer />
     </>

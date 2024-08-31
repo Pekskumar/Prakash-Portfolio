@@ -20,6 +20,7 @@ import Ga4Img from './Assets/ProjectImage/ga4.png'
 import TaskImg from './Assets/ProjectImage/task.png'
 import NewsImg from './Assets/ProjectImage/news1.png'
 import StripeIcn from './Assets/Images/stripe_logo_icon_167962.png'
+import MongodbIcon from "./Assets/Images/MongodbIcon";
 
 export const CommonService = { TechIcon, ProjectImage };
 export function TechIcon(icon) {
@@ -38,6 +39,8 @@ export function TechIcon(icon) {
             return <NodeIcon size='20' />
         } else if (icon === 'render server') {
             return <RenderIcon size='20' />
+        } else if (icon === 'MongoDB') {
+            return <MongodbIcon size='20' />
         } else if (icon === 'Chart.js') {
             return <img src={ChartIcn} style={{ height: '20px' }} />
         } else if (icon === 'gnews.io') {
@@ -57,28 +60,28 @@ export function ProjectImage(image) {
     if (image !== "" && image !== null && image !== undefined) {
         if (image === 'ems') {
             return EMSImg;
-        }else if(image === 'cart'){
+        } else if (image === 'cart') {
             return CartImg;
         }
-        else if(image === 'et'){
+        else if (image === 'et') {
             return ETImg;
         }
-        else if(image === 'gc'){
+        else if (image === 'gc') {
             return GmailImg;
         }
-        else if(image === 'mc'){
+        else if (image === 'mc') {
             return MCImg;
         }
-        else if(image === 'gse'){
+        else if (image === 'gse') {
             return GSImg;
         }
-        else if(image === 'ga-4'){
+        else if (image === 'ga-4') {
             return Ga4Img;
         }
-        else if(image === 'taskboard'){
+        else if (image === 'taskboard') {
             return TaskImg;
         }
-        else if(image === 'news'){
+        else if (image === 'news') {
             return NewsImg;
         }
     }
