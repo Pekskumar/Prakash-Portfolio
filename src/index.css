@@ -126,6 +126,37 @@ body {
     monospace;
 } */
 /* common */
+.shimmer-btn {
+  overflow: hidden;
+  position: relative;
+}
+.shimmer-btn:after {
+  -webkit-animation-direction: forward;
+  animation-direction: forward;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: moveAfter;
+  animation-name: moveAfter;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  background: linear-gradient(180deg, hsla(21, 63%, 73%, 0), hsla(0, 0%, 100%, .5) 50%, hsla(21, 63%, 73%, 0));
+  bottom: -50%;
+  content: "";
+  left: -50%;
+  position: absolute;
+  right: -50%;
+  top: -50%;
+  -webkit-transform: rotate(60deg) translate(-5em, 7.5em);
+  transform: rotate(60deg) translate(-5em, 7.5em);
+}
+@keyframes moveAfter {
+  100% {
+    -webkit-transform: rotate(60deg) translate(1em, -9em);
+    transform: rotate(60deg) translate(1em, -9em);
+}
+} 
 .cursor-pointer {
   cursor: pointer !important;
 }

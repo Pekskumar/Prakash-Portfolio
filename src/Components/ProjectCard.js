@@ -27,7 +27,7 @@ const ProjectCard = (props) => {
                 {props.data.sourcelink !== '' &&
                     <Link target='_blank' to={props.data.sourcelink}><Button variant="main-btn gray-btn">Source Code <span className='ms-2'> <GitIcon /></span></Button></Link>}
                 {props.data.livelink !== '' &&
-                    <Link target='_blank' to={props.data.livelink}><Button variant="main-btn eye">Live Project <span className='ms-2'> <EyeIcon /></span></Button></Link>}
+                    <Link target='_blank' to={props.data.livelink}><Button variant="main-btn shimmer-btn eye">Live Project <span className='ms-2'> <EyeIcon /></span></Button></Link>}
             </div>
             {ProjectModal &&
                 <ProjectDetailModal

@@ -1,6 +1,6 @@
 import * as React from "react";
 const DownloadIcon = (props) => (
-<svg fill="#fff" xmlns="http://www.w3.org/2000/svg" 
+<svg fill="#000" xmlns="http://www.w3.org/2000/svg" 
 	 width="13px" height="13px" viewBox="0 0 52 52" enable-background="new 0 0 52 52" >
 <g>
 	<path d="M48.5,31h-3c-0.8,0-1.5,0.7-1.5,1.5v10c0,0.8-0.7,1.5-1.5,1.5h-33C8.7,44,8,43.3,8,42.5v-10

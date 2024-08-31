@@ -25,7 +25,7 @@ const Header = () => {
                         <Nav.Link className='py-1' href="#Skills">Skills</Nav.Link>
                         <Nav.Link className='py-1' href="#action2">Contact</Nav.Link>
                     </Nav>
-                    <Button variant="main-btn">Hire Me <span className='ms-2'> <HeartIcon/></span></Button>
+                    <Button variant="main-btn shimmer-btn">Hire Me <span className='ms-2'> <HeartIcon/></span></Button>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
