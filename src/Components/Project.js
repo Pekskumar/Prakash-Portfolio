@@ -4,7 +4,7 @@ import { Col, Row } from 'react-bootstrap'
 import Projectdata from '../Data/Projectdata'
 
 const Project = () => {
-console.log("Projectdata :",Projectdata);
+
 
     return (
         <div>

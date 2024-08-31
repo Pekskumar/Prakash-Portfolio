@@ -3,16 +3,13 @@ import ExperienceCard from './ExperienceCard'
 import { Timeline, TimelineEvent } from 'react-event-timeline'
 import JobIcon from '../Assets/Images/JobIcon'
 import Experiencedata from '../Data/Experiencedata';
-
-// import './ExperienceCard.css';
-console.log("Experiencedata ::", Experiencedata);
-
 const Experience = () => {
   return (
     <>
       <Timeline >
         {Experiencedata.map((item, index) =>
           <TimelineEvent
+            key={index}
             className='experience-card'
             style={{
               boxShadow: 'none',
