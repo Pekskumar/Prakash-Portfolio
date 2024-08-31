@@ -351,13 +351,12 @@ body .nav-link {
   min-height: 300px; */
   /* object-fit: cover; */
 }
-body .modal{
+body .modal {
   overflow: hidden;
 }
-body .modal-body{
+body .modal-body {
   height: calc(100vh - 118px);
   overflow-x: auto;
-
 }
 
 /* skill */
@@ -411,30 +410,42 @@ body .modal-body{
 .skill-right-slider .skill-one .skill-icon img {
   height: 50px;
 }
-footer a{
- color: #fff;
+footer a {
+  color: #fff;
 }
 footer {
   font-size: 14px;
   background: #000;
   color: #fff;
 }
-.footer-heart svg{
+.footer-heart svg {
   height: 20px;
   width: 20px;
 }
-.footer-heart path{
-fill: red;
+.footer-heart path {
+  fill: red;
 }
 .line-arrow-icon {
   margin-top: -20px;
   /* width: 47%; */
 }
-
-
+body .navbar-toggler,body .navbar-toggler:focus {
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+}
 
 @media screen and (max-width: 991px) {
-  .hero-banner::before{
+  .hero-banner::before {
     background-size: contain;
+  }
+  body .sticky-top .container-fluid{
+padding: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .experience-card div.single {
+    padding: 1rem !important;
+    padding-bottom: 10px !important;
   }
 }

@@ -8,7 +8,7 @@ import HeartIcon from '../Assets/Images/HeartIcon';
 
 const Header = () => {
     return (
-        <Navbar  sticky="top" expand="lg" className="p-3">
+        <Navbar sticky="top" expand="lg" className="p-3">
             <Container fluid>
                 <Navbar.Brand href="#home">P</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
@@ -20,12 +20,12 @@ const Header = () => {
                     >
                         <Nav.Link className='py-1' href="#home">Home</Nav.Link>
                         <Nav.Link className='py-1' href="#About">About</Nav.Link>
-                        <Nav.Link  className='py-1' href="#Experience">Experience</Nav.Link>
-                        <Nav.Link className='py-1' href="#Projects">Projects</Nav.Link>
+                        <Nav.Link className='py-1' href="#Experience">Experience</Nav.Link>
+                        <Nav.Link className='py-1' href="#Projects">Projects</Nav.Link>                        
                         <Nav.Link className='py-1' href="#Skills">Skills</Nav.Link>
-                        <Nav.Link className='py-1' href="#action2">Contact</Nav.Link>
+                        <Nav.Link className='py-1' href="#Testimonial">Testimonial</Nav.Link>
                     </Nav>
-                    <Button variant="main-btn shimmer-btn">Hire Me <span className='ms-2'> <HeartIcon/></span></Button>
+                    <Button variant="main-btn shimmer-btn">Hire Me <span className='ms-2'> <HeartIcon /></span></Button>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
