@@ -129,7 +129,7 @@ body {
 .cursor-pointer {
   cursor: pointer !important;
 }
-img{
+img {
   max-width: 100%;
 }
 body .btn-main-btn {
@@ -252,8 +252,16 @@ body .nav-link {
 }
 
 /* about */
-.about-left-img{
-
+.about-left-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.about-left-img img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* experience-card */

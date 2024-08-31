@@ -10,16 +10,18 @@ import LocationIcon from '../Assets/Images/LocationIcon'
 const About = () => {
     return (
         <Row>
-            <Col md={6}>
+            <Col md={6} className='    d-flex
+    justify-content-center
+    align-items-center'>
                 <div className='about-left-img'>
-                    <img src={PrakashImg}/>
+                    <img src={PrakashImg} />
                 </div>
             </Col>
             <Col md={6}>
                 <div className='project-btn'>
                     <div className='hero-detail mb-3'>Hey, I'm <b>Prakash Parmar</b>, a <b>frontend engineer</b> who builds things using technologies I've learned so far, such as <b>React js, JavaScript, HTML, CSS, React Bootstrap.</b> I'm always looking forward to learning new things as I grow, and I love keeping myself updated with the <b>rapidly</b> changing <b>tech world.</b></div>
-                    <div className='hero-detail mb-3'>My portfolio boasts a diverse range of <b>web applications </b>, spanning from innovative <b>e-commerce</b> platforms to engaging <b>social networking</b> sites. I pride myself on creating <b>scalable and efficient solutions</b> that adhere to <b>industry best practices</b>, ensuring <b>optimal performance and user satisfaction.</b></div>                    
-                    <div className='hero-detail mb-3'>I strongly believe in <b>continuous learning and improving myself,</b> so I try my best to learn in <b>any situation possible, unfavorable or not.</b></div>                    
+                    <div className='hero-detail mb-3'>My portfolio boasts a diverse range of <b>web applications </b>, spanning from innovative <b>e-commerce</b> platforms to engaging <b>social networking</b> sites. I pride myself on creating <b>scalable and efficient solutions</b> that adhere to <b>industry best practices</b>, ensuring <b>optimal performance and user satisfaction.</b></div>
+                    <div className='hero-detail mb-3'>I strongly believe in <b>continuous learning and improving myself,</b> so I try my best to learn in <b>any situation possible, unfavorable or not.</b></div>
                     <div className='d-flex flex-wrap'>
                         <Link to={`tel:${8866808798}`} className='me-2 mb-2'>
                             <Button variant="main-btn gray-btn">
