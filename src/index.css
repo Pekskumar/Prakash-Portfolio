@@ -126,6 +126,9 @@ body {
     monospace;
 } */
 /* common */
+.bg-color {
+  background-color: #f4f4f5;
+}
 .shimmer-btn {
   overflow: hidden;
   position: relative;
@@ -213,7 +216,7 @@ body .project-btn a:hover {
 }
 /* header */
 body .sticky-top {
-  position: absolute;
+  position: fixed;
   top: 24px;
   /* margin: 0 24px; */
   margin: 0 20px;
@@ -383,7 +386,7 @@ body .modal-body {
   z-index: 999;
 }
 .skill-right-slider {
-  margin-top: 30px;
+  margin-top: -25px;
 }
 .skill-right-slider:last-child {
   margin-top: -90px;
@@ -432,7 +435,8 @@ footer {
   margin-top: -20px;
   /* width: 47%; */
 }
-body .navbar-toggler,body .navbar-toggler:focus {
+body .navbar-toggler,
+body .navbar-toggler:focus {
   padding: 0;
   border: 0;
   box-shadow: none;
@@ -442,8 +446,14 @@ body .navbar-toggler,body .navbar-toggler:focus {
   .hero-banner::before {
     background-size: contain;
   }
-  body .sticky-top .container-fluid{
-padding: 0;
+  body .sticky-top .container-fluid {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about-left-img {
+    height: 100px;
+    width: 100px;
   }
 }
 @media screen and (max-width: 600px) {

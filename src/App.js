@@ -14,15 +14,19 @@ function App() {
     <>
       <Header />
       <HeroBanner />
+      {/* <div className="bg-color">
+        <Container>
+           <SectionHeader id='About' title='About Me' detail='Check out my professional experience below.' /> 
+          <About />
+        </Container>
+      </div> */}
       <Container>
-        <SectionHeader id='About' title='About Me' detail='Check out my professional experience below.' />
-        <About />
+      <About />
         <SectionHeader id='Experience' title='Experience' detail='Check out my professional experience below.' />
         <Experience />
         <SectionHeader id='Projects' title='Projects' detail='Explore my featured projects below.' />
         <Project />
         <SectionHeader id='Skills' title='Skills' detail='Building exceptional digital experiences with the power of different skills.' />
-     
       </Container>
       <Skills />
       <Footer />
