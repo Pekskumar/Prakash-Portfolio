@@ -10,7 +10,7 @@ const Experience = () => {
         {Experiencedata.map((item, index) =>
           <TimelineEvent
             key={index}
-            className='experience-card'
+            className='experience-card '
             style={{
               boxShadow: 'none',
               border: 0,

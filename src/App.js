@@ -7,6 +7,7 @@ import Project from "./Components/Project";
 import Footer from "./Components/Footer";
 import Skills from "./Components/Skills";
 import About from "./Components/About";
+import Testimonial from "./Components/Testimonial";
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
         </Container>
       </div> */}
       <Container>
-      <About />
+        <About />
         <SectionHeader id='Experience' title='Experience' detail='Check out my professional experience below.' />
         <Experience />
         <SectionHeader id='Projects' title='Projects' detail='Explore my featured projects below.' />
@@ -29,6 +30,10 @@ function App() {
         <SectionHeader id='Skills' title='Skills' detail='Building exceptional digital experiences with the power of different skills.' />
       </Container>
       <Skills />
+      <Container>
+        <SectionHeader id='Testimonial' title='Testimonial' detail='Building exceptional digital experiences with the power of different skills.' />
+      </Container>
+      <Testimonial />
       <Footer />
     </>
   );

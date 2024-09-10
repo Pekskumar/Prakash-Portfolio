@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import { Button, Col, Row } from 'react-bootstrap'
 import GitIcon from '../Assets/Images/GitIcon'
 import PrakashImg from '../Assets/Images/Prakash_DP.jpeg'
@@ -9,11 +9,34 @@ import LocationIcon from '../Assets/Images/LocationIcon'
 import ArrowIcon from '../Assets/Images/ArrowIcon'
 
 const About = () => {
+    const cardRef = useRef(null); // Ref for the about-left element
+
+    // Calculate rotation angles on mousemove
+    const handleMouseMove = (event) => {
+        if (cardRef.current) { // Check if the element exists
+            const windowWidth = window.innerWidth;
+            const windowHeight = window.innerHeight;
+            const centerX = windowWidth / 2;
+            const centerY = windowHeight
+                / 2;
+
+            const ax = -((event.pageX - centerX) / windowWidth) * 20;
+            const ay = ((event.pageY - centerY) / windowHeight) * 10;
+
+            cardRef.current.style.transform = `rotateY(${ax}deg) rotateX(${ay}deg)`;
+        }
+    };
+
+    // Add event listener on component mount, remove on unmount
+    useEffect(() => {
+        document.addEventListener('mousemove', handleMouseMove);
+        return () => document.removeEventListener('mousemove', handleMouseMove);
+    }, []);
     return (
-        <Row className='pt-5'>
-            <Col md={6} className='  mb-4  d-flex
+        <Row className='pt-5 about-main '  >
+            <Col md={6} className='about-left  mb-4  d-flex
     justify-content-center
-    align-items-center'>
+    align-items-center' ref={cardRef}>
                 <div className='about-left-img '>
                     <img src={PrakashImg} />
                 </div>
@@ -27,9 +50,9 @@ const About = () => {
 
                 </div>
                 <div className='project-btn mb-3'>
-                    <div className='hero-detail mb-3'>Hey, I'm <b>Prakash Parmar</b>, a <b>frontend engineer</b> who builds things using technologies I've learned so far, such as <b>React js, JavaScript, HTML, CSS, React Bootstrap.</b> I'm always looking forward to learning new things as I grow, and I love keeping myself updated with the <b>rapidly</b> changing <b>tech world.</b></div>
-                    <div className='hero-detail mb-3'>My portfolio boasts a diverse range of <b>web applications </b>, spanning from innovative <b>e-commerce</b> platforms to engaging <b>social networking</b> sites. I pride myself on creating <b>scalable and efficient solutions</b> that adhere to <b>industry best practices</b>, ensuring <b>optimal performance and user satisfaction.</b></div>
-                    <div className='hero-detail mb-3'>I strongly believe in <b>continuous learning and improving myself,</b> so I try my best to learn in <b>any situation possible, unfavorable or not.</b></div>
+                    <div className='text-gray mb-3'>Hey, I'm <b>Prakash Parmar</b>, a <b>frontend engineer</b> who builds things using technologies I've learned so far, such as <b>React js, JavaScript, HTML, CSS, React Bootstrap.</b> I'm always looking forward to learning new things as I grow, and I love keeping myself updated with the <b>rapidly</b> changing <b>tech world.</b></div>
+                    <div className='text-gray mb-3'>My portfolio boasts a diverse range of <b>web applications </b>, spanning from innovative <b>e-commerce</b> platforms to engaging <b>social networking</b> sites. I pride myself on creating <b>scalable and efficient solutions</b> that adhere to <b>industry best practices</b>, ensuring <b>optimal performance and user satisfaction.</b></div>
+                    <div className='text-gray mb-3'>I strongly believe in <b>continuous learning and improving myself,</b> so I try my best to learn in <b>any situation possible, unfavorable or not.</b></div>
                     <div className='d-flex flex-wrap'>
                         <Link to={`tel:${8866808798}`} className='me-2 mb-2'>
                             <Button variant="main-btn gray-btn">
