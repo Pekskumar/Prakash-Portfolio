@@ -31,7 +31,8 @@ function App() {
       </Container>
       <Skills />
       <Container>
-        <SectionHeader id='Testimonial' title='Testimonial' detail='Building exceptional digital experiences with the power of different skills.' />
+      <SectionHeader id='Testimonial' title='Testimonial' detail='Hear what others are saying about their exceptional experiences with me.' />
+
       </Container>
       <Testimonial />
       <Footer />
