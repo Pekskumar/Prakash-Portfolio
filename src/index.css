@@ -120,6 +120,8 @@ body {
   --border-color: #e5e7eb;
   /* --text-gray: #71717a; */
   --text-gray: #868e96;
+  --text-white: #fff;
+  --text-black: #000;
   --card-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 /* code {
@@ -173,8 +175,8 @@ img {
   max-width: 100%;
 }
 body .btn-main-btn {
-  background: #000;
-  color: #fff;
+  background: var(--text-black);
+  color: var(--text-white);
   font-size: 14px;
   font-weight: 600;
   padding: 5px 12px;
@@ -183,10 +185,10 @@ body .btn-main-btn {
   align-items: center;
 }
 body .btn-main-btn:hover {
-  border-color: #000;
+  border-color: var(--text-black);
 }
 body .btn-main-btn:hover svg {
-  stroke: #000;
+  stroke: var(--text-black);
 }
 body .project-btn .btn-main-btn {
   border-radius: 30px;
@@ -203,7 +205,7 @@ body .project-btn a {
   text-decoration: none;
 }
 body .project-btn a:hover {
-  color: #000;
+  color: var(--text-black);
 }
 
 .round-border {
@@ -242,20 +244,17 @@ body .navbar-brand {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #000;
+  background: var(--text-black);
   border-radius: 50%;
-  color: #fff;
+  color: var(--text-white);
   font-size: 24px;
   font-weight: 600;
 }
 body .navbar-brand:hover {
-  color: #fff;
+  color: var(--text-white);
 }
-body .nav-link {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-weight: 400;
-  /* color: var(--); */
+body .nav-link {  
+  color: var(--text-black);
 }
 body .navbar-nav .nav-link.active {
   font-weight: 600;
@@ -300,7 +299,7 @@ body .navbar-nav .nav-link.active {
   }
 }
 .get-resume:hover svg {
-  fill: #000;
+  fill: var(--text-black);
 }
 .hero-banner {
   height: 100vh;
@@ -356,7 +355,7 @@ body .navbar-nav .nav-link.active {
 .review__heading {
   position: absolute;
   inset: 0 auto auto 0;
-  background: #ffffff;
+  background: var(--text-white)fff;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -370,7 +369,7 @@ body .navbar-nav .nav-link.active {
 .review__heading {
   position: absolute;
   inset: 0 auto auto 0;
-  background: #ffffff;
+  background: var(--text-white)fff;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -427,7 +426,7 @@ body .navbar-nav .nav-link.active {
   box-shadow: unset !important;
   background-color: transparent !important;
   padding: 0 !important;
-  color: #000 !important;
+  color: var(--text-black) !important;
 }
 .experience-card li {
   font-size: 1rem;
@@ -450,7 +449,7 @@ body .navbar-nav .nav-link.active {
   transition: all 0.5s ease;
 }
 .project-detail:hover{
- color: #000;
+ color: var(--text-black);
 }
 .project-card:hover {
   margin-top: -8px;
@@ -483,11 +482,11 @@ body .modal-body {
 .skill-inner:before {
   background: linear-gradient(
     90deg,
-    #fff,
+    var(--text-white),
     rgba(247, 251, 254, 0.02) 18.23%,
     rgba(247, 251, 254, 0) 51.37%,
     rgba(247, 251, 254, 0.07) 87.5%,
-    #fff
+    var(--text-white)
   );
   content: '';
   height: 100%;
@@ -528,12 +527,12 @@ body .modal-body {
   height: 50px;
 }
 footer a {
-  color: #fff;
+  color: var(--text-white);
 }
 footer {
   font-size: 14px;
-  background: #000;
-  color: #fff;
+  background: var(--text-black);
+  color: var(--text-white);
 }
 .footer-heart svg {
   height: 20px;

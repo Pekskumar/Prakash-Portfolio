@@ -23,15 +23,23 @@ function App() {
       </div> */}
       <Container>
         <About />
-        <SectionHeader id='Experience' title='Experience' detail='Check out my professional experience below.' />
+        {/* <SectionHeader id='Experience' title='Experience' detail='Check out my professional experience below.' />        <SectionHeader id='Experience' title='Professional Experience' detail='Explore my career journey and the expertise I’ve gained along the way.' /> */}
+        <SectionHeader id='Experience' title='Professional Experience' detail='Explore my career journey and the expertise I’ve gained along the way.' />
+
         <Experience />
-        <SectionHeader id='Projects' title='Projects' detail='Explore my featured projects below.' />
+        {/* <SectionHeader id='Projects' title='Projects' detail='Explore my featured projects below.' /> */}
+        <SectionHeader id='Projects' title='Featured Projects' detail='Dive into my work and see how I bring ideas to life through innovation.' />
+
         <Project />
-        <SectionHeader id='Skills' title='Skills' detail='Building exceptional digital experiences with the power of different skills.' />
+        {/* <SectionHeader id='Skills' title='Skills' detail='Building exceptional digital experiences with the power of different skills.' /> */}
+        <SectionHeader id='Skills' title='Core Skills' detail='Harnessing a diverse set of skills to create remarkable digital solutions.' />
+
       </Container>
       <Skills />
       <Container>
-      <SectionHeader id='Testimonial' title='Testimonial' detail='Hear what others are saying about their exceptional experiences with me.' />
+      {/* <SectionHeader id='Testimonial' title='Testimonials' detail='Hear what others are saying about their exceptional experiences with me.' /> */}
+      <SectionHeader id='Testimonial' title='Testimonials' detail='Read what my collaborators say about their experiences working with me.' />
+
 
       </Container>
       <Testimonial />
