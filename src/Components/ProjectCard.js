@@ -16,7 +16,7 @@ const ProjectCard = (props) => {
             <img className='project-img' src={CommonService.ProjectImage(props.data.subtitle)} alt={props.data.subtitle} />
             <div className='my-3'>
                 {props.data.technology.map((item, index) =>
-                    <span className='me-2' key={index}>
+                    <span  title={item} className='me-2' key={index}>
                         {CommonService.TechIcon(item)}
                     </span>
                 )}

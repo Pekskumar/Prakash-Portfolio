@@ -33,7 +33,7 @@ const About = () => {
         return () => document.removeEventListener('mousemove', handleMouseMove);
     }, []);
     return (
-        <Row className='pt-5 about-main '  >
+        <Row className='pt-5 about-main ' id='About' >
             <Col md={6} className='about-left  mb-4  d-flex
     justify-content-center
     align-items-center' ref={cardRef}>

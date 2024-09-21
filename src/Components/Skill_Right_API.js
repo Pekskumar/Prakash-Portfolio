@@ -7,57 +7,62 @@ import javascriptIcon from '../Assets/Images/icons/javascript.svg';
 import bootstrapIcon from '../Assets/Images/icons/bootstrap.svg';
 import TailwindIcon from '../Assets/Images/icons/tailwind.svg';
 import Redux from '../Assets/Images/icons/redux.svg';
+import OpenWhether from '../Assets/Images/openweathermap.png';
+import DummyJsn from '../Assets/Images/dummyjson.png';
+import Mongodb from '../Assets/Images/mongodb.jpg';
 
 
 
 const Skill_Right_API = [
-
     {
-        icon:`${html5Icon}`,
-        iconName:'HTML 5',
+        icon: `${reactIcon}`,
+        iconName: 'React Js',
     },
     {
-        icon:`${css3Icon}`,
-        iconName:'CSS 3',
+        icon: `${Mongodb}`,
+        iconName: 'Mongo DB',
     },
     {
-        icon:`${TailwindIcon}`,
-        iconName:'Tailwind',
+        icon: `${Redux}`,
+        iconName: 'Redux',
     },
     {
-        icon:`${bootstrapIcon}`,
-        iconName:'Bootstrap',
+        icon: `${javascriptIcon}`,
+        iconName: 'Javascript',
+    },
+    {
+        icon: `${html5Icon}`,
+        iconName: 'HTML 5',
+    },
+    {
+        icon: `${css3Icon}`,
+        iconName: 'CSS 3',
     },
     // {
-    //     icon:`${sassIcon}`,
-    //     iconName:'SCSS',
-    // },
-    // {
-    //     icon:`${reactIcon}`,
-    //     iconName:'React Js (Basic)',
-    // },
-    // {
-    //     icon:`${Redux}`,
-    //     iconName:'Redux',
+    //     icon:`${TailwindIcon}`,
+    //     iconName:'Tailwind',
     // },
     {
-        icon:`${jqueryIcon}`,
-        iconName:'jQuery',
-    },
- 
-    {
-        icon:`${javascriptIcon}`,
-        iconName:'Javascript',
+        icon: `${bootstrapIcon}`,
+        iconName: 'Bootstrap',
     },
     {
-        icon:`${html5Icon}`,
-        iconName:'HTML 5',
+        icon: `${sassIcon}`,
+        iconName: 'SCSS',
+    },
+    
+    {
+        icon: `${jqueryIcon}`,
+        iconName: 'jQuery',
+    },
+   
+    {
+        icon: `${OpenWhether}`,
+        iconName: 'Open Whether',
     },
     {
-        icon:`${css3Icon}`,
-        iconName:'CSS 3',
+        icon: `${DummyJsn}`,
+        iconName: 'Dummy Json',
     },
-
-  
 ]
 export default Skill_Right_API;

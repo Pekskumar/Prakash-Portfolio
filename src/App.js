@@ -36,7 +36,7 @@ function App() {
 
       </Container>
       <Skills />
-      <Container>
+      <Container className="custom-top">
       {/* <SectionHeader id='Testimonial' title='Testimonials' detail='Hear what others are saying about their exceptional experiences with me.' /> */}
       <SectionHeader id='Testimonial' title='Testimonials' detail='Read what my collaborators say about their experiences working with me.' />
 

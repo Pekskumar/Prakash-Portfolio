@@ -217,6 +217,7 @@ body .project-btn a:hover {
   color: var(--text-gray);
   font-weight: 400;
 }
+
 /* header */
 body .sticky-top {
   position: fixed;
@@ -249,6 +250,9 @@ body .navbar-brand {
   color: var(--text-white);
   font-size: 24px;
   font-weight: 600;
+}
+.custom-top{
+  margin-top: -85px;
 }
 body .navbar-brand:hover {
   color: var(--text-white);
