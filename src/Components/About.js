@@ -11,7 +11,7 @@ import ArrowIcon from '../Assets/Images/ArrowIcon'
 const About = () => {
     
     return (
-        <Row className='pt-5 about-main ' id='About' >
+        <Row className='about-main ' id='About' >
             <Col md={6} className='about-left  mb-4  d-flex
     justify-content-center
     align-items-center' >

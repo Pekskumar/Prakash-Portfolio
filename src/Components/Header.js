@@ -8,6 +8,7 @@ import HeartIcon from '../Assets/Images/HeartIcon';
 
 const Header = () => {
     return (
+        
         <Navbar sticky="top" expand="lg" className="p-3">
             <Container fluid>
                 <Navbar.Brand href="#home">P</Navbar.Brand>

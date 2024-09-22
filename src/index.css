@@ -599,12 +599,16 @@ body .navbar-toggler:focus {
 }
 
 @media screen and (max-width: 991px) {
+  body .sticky-top {
+    position: fixed;
+    top: 15px;
+  }
   body .nav-link {
     padding: 10px 0 !important;
   }
-  .hero-banner::before {
+  /* .hero-banner::before {
     background-size: contain;
-  }
+  } */
   body .sticky-top .container-fluid {
     padding: 0;
   }
