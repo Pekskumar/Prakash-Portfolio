@@ -220,8 +220,8 @@ body .project-btn a:hover {
 
 /* header */
 body .sticky-top {
-  position: fixed;
-  top: 24px;
+  position: sticky;
+  top: 0px;
   /* margin: 0 24px; */
   margin: 0 20px;
   width: calc(100% - 40px);
@@ -251,20 +251,20 @@ body .navbar-brand {
   font-size: 24px;
   font-weight: 600;
 }
-.custom-top{
+.custom-top {
   margin-top: -85px;
 }
 body .navbar-brand:hover {
   color: var(--text-white);
 }
-body .nav-link {  
+body .nav-link {
   color: var(--text-black);
 }
 body .navbar-nav .nav-link.active {
   font-weight: 600;
 }
 /* hero-banner */
-.hero-detail{
+.hero-detail {
   color: var(--text-gray);
   font-size: 1.2rem;
   line-height: 2rem;
@@ -276,7 +276,7 @@ body .navbar-nav .nav-link.active {
   display: inline-block;
   transform-origin: 70% 70%;
 }
-.wave-emoji img{
+.wave-emoji img {
   width: 50px;
 }
 @keyframes wave {
@@ -351,7 +351,11 @@ body .navbar-nav .nav-link.active {
 .review__item {
   position: relative;
   /* background: linear-gradient(135deg, rgb(182 219 255) 0, rgb(238, 248, 255) 100%); */
-  background: linear-gradient(135deg, rgb(255 255 255) 0, rgb(238, 248, 255) 100%);
+  background: linear-gradient(
+    135deg,
+    rgb(255 255 255) 0,
+    rgb(238, 248, 255) 100%
+  );
   border-radius: 0.8em;
   padding: 1.25rem;
   break-inside: avoid;
@@ -359,7 +363,7 @@ body .navbar-nav .nav-link.active {
 .review__heading {
   position: absolute;
   inset: 0 auto auto 0;
-  background: var(--text-white)fff;
+  background: var(--text-white) fff;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -368,12 +372,16 @@ body .navbar-nav .nav-link.active {
   padding: 5px 10px;
   line-height: 1;
   transform: translate(-10px, -50%);
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.05), 0 1px 0 0 rgba(10, 10, 10, 0.05), 0 0.1em 0.6em -0.5em rgba(10, 10, 10, 0.05), 0 0.2em 1.2em -0.8em rgba(10, 10, 10, 0.1), 0 0.3em 0.7em -0.6em rgba(10, 10, 10, 0.2), 0 0.4em 0.8em -0.7em rgba(10, 10, 10, 0.3);
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.05), 0 1px 0 0 rgba(10, 10, 10, 0.05),
+    0 0.1em 0.6em -0.5em rgba(10, 10, 10, 0.05),
+    0 0.2em 1.2em -0.8em rgba(10, 10, 10, 0.1),
+    0 0.3em 0.7em -0.6em rgba(10, 10, 10, 0.2),
+    0 0.4em 0.8em -0.7em rgba(10, 10, 10, 0.3);
 }
 .review__heading {
   position: absolute;
   inset: 0 auto auto 0;
-  background: var(--text-white)fff;
+  background: var(--text-white) fff;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -382,7 +390,11 @@ body .navbar-nav .nav-link.active {
   padding: 5px 10px;
   line-height: 1;
   transform: translate(-10px, -50%);
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.05), 0 1px 0 0 rgba(10, 10, 10, 0.05), 0 0.1em 0.6em -0.5em rgba(10, 10, 10, 0.05), 0 0.2em 1.2em -0.8em rgba(10, 10, 10, 0.1), 0 0.3em 0.7em -0.6em rgba(10, 10, 10, 0.2), 0 0.4em 0.8em -0.7em rgba(10, 10, 10, 0.3);
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.05), 0 1px 0 0 rgba(10, 10, 10, 0.05),
+    0 0.1em 0.6em -0.5em rgba(10, 10, 10, 0.05),
+    0 0.2em 1.2em -0.8em rgba(10, 10, 10, 0.1),
+    0 0.3em 0.7em -0.6em rgba(10, 10, 10, 0.2),
+    0 0.4em 0.8em -0.7em rgba(10, 10, 10, 0.3);
 }
 .review__title {
   position: relative;
@@ -404,7 +416,7 @@ body .navbar-nav .nav-link.active {
   margin-block-start: 1.5rem;
 }
 /* about */
-.about-left{
+.about-left {
   transform-style: preserve-3d;
   transform: translateZ(0);
   backface-visibility: hidden;
@@ -452,8 +464,8 @@ body .navbar-nav .nav-link.active {
 .project-card {
   transition: all 0.5s ease;
 }
-.project-detail:hover{
- color: var(--text-black);
+.project-detail:hover {
+  color: var(--text-black);
 }
 .project-card:hover {
   margin-top: -8px;
@@ -554,6 +566,36 @@ body .navbar-toggler:focus {
   padding: 0;
   border: 0;
   box-shadow: none;
+}
+
+/* bottom to top */
+#button {
+  border-radius: 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
 }
 
 @media screen and (max-width: 991px) {

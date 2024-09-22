@@ -9,34 +9,12 @@ import LocationIcon from '../Assets/Images/LocationIcon'
 import ArrowIcon from '../Assets/Images/ArrowIcon'
 
 const About = () => {
-    const cardRef = useRef(null); // Ref for the about-left element
-
-    // Calculate rotation angles on mousemove
-    const handleMouseMove = (event) => {
-        if (cardRef.current) { // Check if the element exists
-            const windowWidth = window.innerWidth;
-            const windowHeight = window.innerHeight;
-            const centerX = windowWidth / 2;
-            const centerY = windowHeight
-                / 2;
-
-            const ax = -((event.pageX - centerX) / windowWidth) * 20;
-            const ay = ((event.pageY - centerY) / windowHeight) * 10;
-
-            cardRef.current.style.transform = `rotateY(${ax}deg) rotateX(${ay}deg)`;
-        }
-    };
-
-    // Add event listener on component mount, remove on unmount
-    useEffect(() => {
-        document.addEventListener('mousemove', handleMouseMove);
-        return () => document.removeEventListener('mousemove', handleMouseMove);
-    }, []);
+    
     return (
         <Row className='pt-5 about-main ' id='About' >
             <Col md={6} className='about-left  mb-4  d-flex
     justify-content-center
-    align-items-center' ref={cardRef}>
+    align-items-center' >
                 <div className='about-left-img '>
                     <img src={PrakashImg} />
                 </div>
