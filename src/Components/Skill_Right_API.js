@@ -10,6 +10,7 @@ import Redux from '../Assets/Images/icons/redux.svg';
 import OpenWhether from '../Assets/Images/openweathermap.png';
 import DummyJsn from '../Assets/Images/dummyjson.png';
 import Mongodb from '../Assets/Images/mongodb.jpg';
+import postman from '../Assets/Images/postman-icon.svg';
 
 
 
@@ -37,6 +38,10 @@ const Skill_Right_API = [
     {
         icon: `${css3Icon}`,
         iconName: 'CSS 3',
+    },
+    {
+        icon: `${postman}`,
+        iconName: 'Postman',
     },
     // {
     //     icon:`${TailwindIcon}`,

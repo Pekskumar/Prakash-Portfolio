@@ -11,6 +11,7 @@ import RenderIcon from '../Assets/Images/renderco_logo.jpg';
 import ChartIcon from '../Assets/Images/Chart.js_logo.svg.png';
 import StripeIcon from '../Assets/Images/stripe_logo_icon_167962.png';
 import Gitcon from '../Assets/Images/Git.png';
+import Swegger from '../Assets/Images/swegger.png';
 
 const Skill_left_API = [
     {
@@ -24,6 +25,10 @@ const Skill_left_API = [
     {
         icon: `${Gitcon}`,
         iconName: 'Git',
+    },
+    {
+        icon: `${Swegger}`,
+        iconName: 'Swagger',
     },
     {
         icon: `${nodeIcon}`,
