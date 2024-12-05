@@ -12,7 +12,7 @@ const HeroBanner = () => {
       <Container>
         <Row>
           <Col md={6}>
-            <div className=''>
+            <div className='hero-banner-inner'>
               <h1 className='mb-3 '>Hey <span className='ms-2 wave-emoji'><img src={HandImg}/></span></h1>
               <h1 className='mb-3'>I'm <b>Prakash Parmar</b></h1>
               <h3 className='mb-3'>React Js Developer 🚀</h3>

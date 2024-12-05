@@ -19,12 +19,12 @@ const Header = () => {
                         // style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Nav.Link className='py-1' href="#home">Home</Nav.Link>
-                        <Nav.Link className='py-1' href="#About">About</Nav.Link>
-                        <Nav.Link className='py-1' href="#Experience">Experience</Nav.Link>
-                        <Nav.Link className='py-1' href="#Projects">Projects</Nav.Link>                        
-                        <Nav.Link className='py-1' href="#Skills">Skills</Nav.Link>
-                        <Nav.Link className='py-1' href="#Testimonial">Testimonials</Nav.Link>
+                        <Nav.Link className='py-1 mx-1' href="#home">Home</Nav.Link>
+                        <Nav.Link className='py-1 mx-1' href="#About">About</Nav.Link>
+                        <Nav.Link className='py-1 mx-1' href="#Experience">Experience</Nav.Link>
+                        <Nav.Link className='py-1 mx-1' href="#Projects">Projects</Nav.Link>                        
+                        <Nav.Link className='py-1 mx-1' href="#Skills">Skills</Nav.Link>
+                        <Nav.Link className='py-1 mx-1' href="#Testimonial">Testimonials</Nav.Link>
                     </Nav>
                     <Button variant="main-btn shimmer-btn">Hire Me <span className='ms-2'> <HeartIcon /></span></Button>
                 </Navbar.Collapse>
