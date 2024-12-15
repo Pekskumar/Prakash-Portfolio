@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Prakash-Portfolio/static/css/main.9b0c6d91.css",
-    "main.js": "/Prakash-Portfolio/static/js/main.e7941369.js",
+    "main.css": "/Prakash-Portfolio/static/css/main.19a856e5.css",
+    "main.js": "/Prakash-Portfolio/static/js/main.c2d59707.js",
     "static/media/news1.png": "/Prakash-Portfolio/static/media/news1.be180af57dce979e30ea.png",
     "static/media/mc.png": "/Prakash-Portfolio/static/media/mc.a3cfe4d1fbfd2b78ee59.png",
     "static/media/emsimg.png": "/Prakash-Portfolio/static/media/emsimg.4eda6338f85edce030a0.png",
+    "static/media/instachat.png": "/Prakash-Portfolio/static/media/instachat.b653ae7a12dc6810eb78.png",
     "static/media/ChatGPT.png": "/Prakash-Portfolio/static/media/ChatGPT.bf75d5e7b156bde72e02.png",
     "static/media/ga4.png": "/Prakash-Portfolio/static/media/ga4.d6f50a69a715765b03c4.png",
     "static/media/lifestore.png": "/Prakash-Portfolio/static/media/lifestore.0ba4057a35f85f2fc4cd.png",
@@ -39,11 +40,11 @@
     "static/media/illustrator.svg": "/Prakash-Portfolio/static/media/illustrator.64d2d0f6afc3dff9b33144298047b1d5.svg",
     "static/media/figma.svg": "/Prakash-Portfolio/static/media/figma.091c2c593592e5ad1704a8c8e3e63e3d.svg",
     "static/media/mui.svg": "/Prakash-Portfolio/static/media/mui.9873a18350271e9221576319270afd3d.svg",
-    "main.9b0c6d91.css.map": "/Prakash-Portfolio/static/css/main.9b0c6d91.css.map",
-    "main.e7941369.js.map": "/Prakash-Portfolio/static/js/main.e7941369.js.map"
+    "main.19a856e5.css.map": "/Prakash-Portfolio/static/css/main.19a856e5.css.map",
+    "main.c2d59707.js.map": "/Prakash-Portfolio/static/js/main.c2d59707.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b0c6d91.css",
-    "static/js/main.e7941369.js"
+    "static/css/main.19a856e5.css",
+    "static/js/main.c2d59707.js"
   ]
 }
