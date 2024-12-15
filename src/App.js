@@ -87,7 +87,7 @@ function App() {
             <Project />
           </Container>
         </div>
-        <div className="drop-shadow py-5">
+        <div className="drop-shadow position-relative skill-inner-one py-5">
           <Container>
             <SectionHeader
               id="Skills"

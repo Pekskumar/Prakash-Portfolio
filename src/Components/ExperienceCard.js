@@ -5,7 +5,7 @@ const ExperienceCard = (props) => {
         <div className='single round-border p-4 mb-3'>
             <ul className='ps-4'>
                 {props.data.detail.map((itemd, indexd) =>
-                    <li className='text-gray' key={indexd}>{itemd}</li>
+                    <li className='body-text ' key={indexd}>{itemd}</li>
                 )}
             </ul>
             <div>

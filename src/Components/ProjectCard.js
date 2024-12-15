@@ -21,8 +21,8 @@ const ProjectCard = (props) => {
                     </span>
                 )}
             </div>
-            <h5 className='mt-3'>{props.data.title}</h5>
-            <p className='project-detail text-gray'>{`${props.data.detail.substring(0, 140)}...`}<span className='cursor-pointer' onClick={() => setProjectModal(true)}><b>read more</b></span></p>
+            <h5 className='mt-3 title-primary'>{props.data.title}</h5>
+            <p className='project-detail body-text '>{`${props.data.detail.substring(0, 140)}...`}<span className='cursor-pointer' onClick={() => setProjectModal(true)}><b>read more</b></span></p>
             <div className='project-btn d-flex justify-content-between'>
                 {props.data.sourcelink !== '' &&
                     <Link target='_blank' to={props.data.sourcelink}><Button variant="main-btn gray-btn">Source Code <span className='ms-2'> <GitIcon /></span></Button></Link>}

@@ -17,7 +17,7 @@ const ProjectDetailModal = (props) => {
             centered
         >
             <Modal.Header closeButton>
-                <Modal.Title id="contained-modal-title-vcenter">
+                <Modal.Title className='title-primary' id="contained-modal-title-vcenter">
                     {props.data.data.title}
                 </Modal.Title>
             </Modal.Header>
@@ -33,7 +33,7 @@ const ProjectDetailModal = (props) => {
                         )}
                     </div>
 
-                    <p className='project-detail'>{props.data.data.detail}</p>
+                    <p className='project-detail body-text '>{props.data.data.detail}</p>
                     <div className='project-btn d-flex justify-content-between'>
                         {props.data.data.sourcelink !== '' &&
                             <Link target='_blank' to={props.data.data.sourcelink}><Button variant="main-btn gray-btn">Source Code <span className='ms-2'> <GitIcon /></span></Button></Link>}

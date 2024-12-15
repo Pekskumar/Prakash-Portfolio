@@ -10,6 +10,7 @@ import GnewsIcn from './Assets/Images/Gnews.jpg'
 import IPAPIIcn from './Assets/Images/ipapi.png'
 import WetherIcn from './Assets/Images/openweathermap.png'
 import DummyIcn from './Assets/Images/dummyjson.png'
+import instachat from './Assets/Images/instachat.png'
 import EMSImg from './Assets/ProjectImage/emsimg.png'
 import CartImg from './Assets/ProjectImage/lifestore.png'
 import ETImg from './Assets/ProjectImage/et.png'
@@ -83,6 +84,9 @@ export function ProjectImage(image) {
         }
         else if (image === 'news') {
             return NewsImg;
+        }
+        else if (image === 'instachat') {
+            return instachat;
         }
     }
 }

@@ -110,9 +110,10 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif !important;
-  background-color: hsl(0 0% 100%) !important;
+  /* background-color: hsl(0 0% 100%) !important; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--secondary-text-color) !important;
 }
 /* variables */
 :root {
@@ -126,12 +127,28 @@ body {
   --card-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --primary-color: rgb(8 126 164/1);
   --secondary-color: #e6f7ff;
+  --primary-text-color: #23272f;
+  --secondary-text-color: #404756;
 }
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
 /* common */
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-text-color) !important;
+}
 .drop-shadow {
   background-image: conic-gradient(
     from 90deg at -10% 100%,
@@ -139,10 +156,19 @@ body {
     #bcc1cd 90deg,
     #fff 1turn
   );
-  border-color: rgba(35, 39, 47, .05);
+  border-color: rgba(35, 39, 47, 0.05);
 }
 .bg-color {
   background-color: #f4f4f5;
+}
+.body-text {
+  /* background: var(--secondary-text-color); */
+  color: var(--secondary-text-color);
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-family: Optimistic Text, -apple-system, ui-sans-serif, system-ui,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
 }
 .shimmer-btn {
   overflow: hidden;
@@ -197,7 +223,7 @@ body .btn-main-btn {
   align-items: center;
   border-radius: var(--border-radius-btn);
 }
-body .btn-main-btn:hover {
+body .btn-main-btn:hover,body .btn-main-btn:active {
   /* border-color: var(--text-black); */
   color: var(--text-white);
   border-color: var(--primary-color);
@@ -205,7 +231,7 @@ body .btn-main-btn:hover {
   opacity: 0.8;
 }
 body .btn-main-btn:hover svg {
-  stroke: var(--text-black);
+  /* stroke: #fff; */
 }
 body .project-btn .btn-main-btn {
   border-radius: var(--border-radius-btn);
@@ -236,10 +262,14 @@ body .project-btn a:hover {
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
   box-shadow: var(--card-shadow);
+  background: var(--text-white);
 }
 .text-gray {
   color: var(--text-gray);
   font-weight: 400;
+}
+.title-primary {
+  color: var(--primary-color) !important;
 }
 
 /* header */
@@ -283,7 +313,8 @@ body .navbar-brand:hover {
   color: var(--text-white);
 }
 body .nav-link {
-  color: #444950;
+  color: var(--secondary-text-color);
+  font-weight: 500;
 }
 body .navbar-nav .nav-link:hover {
   background-color: rgba(35, 39, 47, 0.05);
@@ -296,7 +327,7 @@ body .navbar-nav .nav-link.active {
 }
 /* hero-banner */
 .hero-banner-inner {
-  margin-top: -125px;
+  margin-top: -105px;
 }
 .hero-detail {
   color: var(--text-gray);
@@ -370,7 +401,8 @@ body .navbar-nav .nav-link.active {
   display: inline-block;
 }
 .section-header h2 {
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 2.5rem;
 }
 .section-header {
 }
@@ -485,15 +517,20 @@ body .navbar-nav .nav-link.active {
 .experience-card div.single {
   padding: 1.5rem !important;
   padding-bottom: 10px !important;
+  background: #fff !important;
 }
 .experience-card .badge {
+  background: var(--primary-color) !important;
   font-size: 12px;
   padding: 5px 10px;
   font-weight: 600;
   margin-bottom: 10px;
   text-transform: capitalize;
+  border-radius: 3px !important;
 }
-
+::marker {
+  color: var(--primary-color);
+}
 /* project */
 .project-card {
   transition: all 0.5s ease;
@@ -529,7 +566,7 @@ body .modal-body {
 .skills {
   position: relative;
 }
-.skill-inner:before {
+.skill-inner-one:before {
   background: linear-gradient(
     90deg,
     var(--text-white),
@@ -546,24 +583,29 @@ body .modal-body {
   z-index: 999;
 }
 .skill-right-slider {
-  margin-top: -25px;
+  /* margin-top: -25px; */
+  /* margin-top: -25px; */
 }
 .skill-right-slider:last-child {
-  margin-top: -90px;
+  /* margin-top: -90px; */
 }
 .skill-right-slider .slick-list,
 .skill-right-slider .slick-track {
-  height: 250px;
+  /* height: 250px; */
+}
+.skill-right-slider {
+  height: 155px;
 }
 .skill-right-slider .slick-slide {
   margin: 10px;
 }
 .skill-right-slider .skill-one {
   border-radius: var(--border-radius);
-  /* box-shadow: 1px 0 3px #98c1d9; */
-  border: 1px dashed var(--border-color);
+  box-shadow: 2px 0 5px var(--secondary-color);
+  /* border: 1px dashed var(--border-color); */
   padding: 20px;
   transition: all 0.5s ease 0s;
+  background: #fff;
 }
 .skill-right-slider .skill-one .skill-icon {
   margin-bottom: 20px;
@@ -581,7 +623,7 @@ footer a {
 }
 footer {
   font-size: 14px;
-  background: var(--text-black);
+  background: var(--primary-color);
   color: var(--text-white);
 }
 .footer-heart svg {
@@ -606,7 +648,7 @@ body .navbar-toggler:focus {
 #button {
   border-radius: 50px;
   border: 1px solid var(--border-color);
-  background-color: #000;
+  background-color: var(--primary-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -623,10 +665,12 @@ body .navbar-toggler:focus {
 }
 #button:hover {
   cursor: pointer;
-  background-color: #333;
+  opacity: 0.8;
+  /* background-color: #333; */
 }
 #button:active {
-  background-color: #555;
+  opacity: 0.8 !important;
+  /* background-color: #555; */
 }
 #button.show {
   opacity: 1;
@@ -634,6 +678,9 @@ body .navbar-toggler:focus {
 }
 
 @media screen and (max-width: 991px) {
+  .hero-banner-inner {
+    margin-top: 0;
+  }
   body .sticky-top {
     position: fixed;
     top: 15px;
