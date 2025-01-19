@@ -38,12 +38,12 @@ const Projectdata = [
     ],
   },
   {
-    title: "Expense Tracker",
+    title: "Money Tracker",
     subtitle: "et",
     detail:
-      "💻 A fully responsive Expense Tracker app that I developed, featuring user authentication, dynamic dashboards, transaction filters, and a built-in to-do list. It includes full CRUD operations and is built with React, RTK, and ApexCharts, providing real-time insights with secure data storage in MongoDB, and deployment on Render.com. 📱",
-    sourcelink: "https://github.com/Pekskumar/expense-tracker",
-    livelink: "https://pekskumar.github.io/expense-tracker",
+      "💻 A fully responsive Money Tracker app that I developed, featuring user authentication, dynamic dashboards, transaction filters, and a built-in to-do list. It includes full CRUD operations and is built with React, RTK, and ApexCharts, providing real-time insights with secure data storage in MongoDB, and deployment on Render.com. 📱",
+    sourcelink: "",
+    livelink: "https://money-tracker-beige-two.vercel.app",
     technology: [
       "react",
       "RTK",

@@ -1,7 +1,7 @@
 const Experiencedata = [
     {
-        position: 'Front-End Engineer',
-        company: 'Acquaint Softtech Private Limited',
+        position: 'Software Developer',
+        company: 'Self-Employed',
         dateduration: 'April 2022 - November 2022',
         monthduration: '8 mos',
         detail: [

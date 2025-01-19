@@ -408,7 +408,7 @@ body .navbar-nav .nav-link.active {
 }
 /* Testimonial */
 .list__review {
-  column-width: 18rem;
+  column-width: 23rem;
   column-gap: 1.5rem;
   list-style: none;
   padding-inline: 1rem;

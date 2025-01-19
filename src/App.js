@@ -107,14 +107,7 @@ function App() {
           </Container>
           <Testimonial />
         </div>
-        {/* <Container className="custom-top">
-          <SectionHeader
-            id="Testimonial"
-            title="Testimonials"
-            detail="Read what my collaborators say about their experiences working with me."
-          />
-        </Container> */}
-        {/* <Testimonial /> */}
+       
         <Footer />
       </div>
     </>
